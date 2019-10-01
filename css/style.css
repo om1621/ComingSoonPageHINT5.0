@@ -545,4 +545,14 @@ body
     {
         padding: 40px 20px;
     }
+
+    #r3 .col-md-4 img
+    {
+        height: 75%;
+    }
+    
+    #hasura img
+    {
+        height: 75%;
+    }
 }
