@@ -282,3 +282,253 @@ body
     font-weight: 600px;
     letter-spacing: 0.3px; 
 }
+
+@media screen and (min-width:768px)
+{
+    .small
+    {
+        display: none;
+    }
+
+    #diversity .row p
+    {
+        font-size: 1.8em;
+        text-align: right;
+    }
+
+}
+
+@media screen and (max-width:768px)
+{
+    .large
+    {
+        display: none;
+    }
+
+    #diversity
+    {
+        margin: 0 auto;
+        padding: 8% 15%;
+    }
+
+    #diversity .heading
+    {
+        text-align: center;
+        margin-left: 0%;
+        margin-bottom: 8%;
+    }
+
+    #diversity .heading h2
+    {
+        font-size: 5em;
+    }
+
+    #diversity .row p
+    {
+        font-size: 2.2em;
+        text-align: justify;
+    }
+
+    #lady
+    {
+        padding: 10% 0 0 15%;
+    }
+
+    #para
+    {
+        padding: 5% 0;
+    }
+
+    .past{
+        text-align: center;
+    }
+
+    #r1
+    {
+        margin-left: 0px;
+        margin-bottom: 0;
+    }
+
+    #r1 .col-md-4  
+    {
+        padding: 0 25%;
+        margin-bottom: 17.5%;
+    }
+
+    /*#r3 .col-md-4 
+    {
+        padding: 0 25%;
+        margin-bottom: 15%;
+    }*/
+
+    #r2{
+        margin: 0 12.5%;
+    }
+
+    #r3
+    {
+        margin: 0px 0 60px 4%;
+    }
+    
+
+    #r4
+    {
+        margin: 0;
+    }
+
+    #r4 .col-md-6
+    {
+        margin-bottom: 12.5%;
+    }
+
+    #bitalino
+    {
+        padding: 0 22.5%;
+    }
+
+    #plux
+    {
+        margin-left: -15%;
+    }
+
+    #product
+    {
+        margin-left: -6%;
+    }
+
+    #paytm
+    {
+        margin-left: 25%;
+    }
+
+    #sketch
+    {
+        padding: 0 0 0 12.5%;
+    }
+
+    #footer .col-md-4
+    {
+        margin-bottom: 13%;
+
+    }
+
+   
+    #footer ul li
+    {
+        display: inline;
+        margin-left: 30px;
+        border: 2px solid white;
+        padding: 12px;
+        border-radius: 50%;
+        padding: 30px 12px 15px 12px;
+    }
+
+    #footer ul
+    {
+        margin-top: -4% !important;
+    }
+    
+}
+
+#sponsors
+{
+    overflow: hidden;
+}
+
+#contact
+{
+    overflow: hidden;
+}
+
+#footer ul
+{
+    list-style: none;
+    margin-top: 8%;
+    margin-left: -17.5%;
+}
+
+#footer ul li
+{
+    display: inline;
+    margin-left: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 26px 12px 12px 12px;
+}
+
+#footer ul li i{
+    margin-top: 20px;
+}
+
+#footer ul li:nth-child(1)
+{
+    color: #42a5f5;
+}
+
+#footer ul li:nth-child(2)
+{
+    color: #e20f00;
+}
+
+#footer ul li:nth-child(4)
+{
+    color:  #17bfff
+}
+
+#footer ul li:nth-child(1):hover
+{
+    background-color: #42a5fe;
+    color: white;
+    transition: all 600ms ease;
+    border-color: #42a5f5;
+}
+
+#footer ul li:nth-child(2):hover
+{
+    background-color:#e20f00;
+    color: white;
+    transition: all 600ms ease;
+    border-color:#e20f00;
+}
+
+#footer ul li:nth-child(3):hover
+{
+    background-color: black;
+    color: white;
+    transition: all 600ms ease;
+    border-color: black;
+
+}
+
+#footer ul li:nth-child(4):hover
+{
+    background-color: #17bfff;
+    color: white;
+    transition: all 600ms ease;
+    border-color: #17bfff;
+}
+
+#medium
+{
+    display: none;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1100px) 
+{
+    #medium
+    {
+        display: block;
+    }
+
+    #sl
+    {
+        display: none;
+    }
+
+    #footer ul
+    {
+        margin-top: 0%;
+    }
+}
+
