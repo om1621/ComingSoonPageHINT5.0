@@ -573,4 +573,9 @@ body
     #sketch {
         padding: 0;
     }
+
+    #linode img
+    {
+        margin-left: 20%;
+    }
 }
