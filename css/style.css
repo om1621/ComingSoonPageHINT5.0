@@ -367,7 +367,7 @@ body
 
     #r3
     {
-        margin: 0px 0 60px 4%;
+        margin: 0px 60px 10%;
     }
     
 
@@ -426,6 +426,10 @@ body
     #footer ul
     {
         margin-top: -4% !important;
+    }
+
+    #r4 {
+        margin: 0 12.5%;
     }
 
     
@@ -554,5 +558,19 @@ body
     #hasura img
     {
         height: 75%;
+    }
+
+    #bitalino
+    {
+        padding: 0 32%;
+    }
+
+    #r3
+    {
+        margin: 0px 60px 4%;
+    }
+
+    #sketch {
+        padding: 0;
     }
 }
