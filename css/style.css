@@ -105,15 +105,10 @@ body
     
 }
 
-@media screen and (max-width:1200px)
+@media screen and (min-width: 768px)
 {
-    .coming h2
-    {
-        font-size: 3em;
-    }
-}
 
-.coming:hove h1
+    .coming:hover h1
 {
     opacity: 1;
     background: -webkit-linear-gradient(#6C63FF 0%, #FF6C56 60%, #FFDB2E 100%);
@@ -122,13 +117,21 @@ body
     transition: 1s all ease-in-out;
 }
 
-.coming:hove h2
+.coming:hover h2
 {
     opacity: 0.2;
     transition: 1s all ease-in-out;
 }
 
+}
 
+@media screen and (max-width:1200px)
+{
+    .coming h2
+    {
+        font-size: 3em;
+    }
+}
 
 .home
 {
@@ -592,8 +595,8 @@ body
     .coming{
         padding: 0;
         position: absolute;
-        top: 120px;
-        left: 5px;
+        top: 151px;
+        left: 18px;
         z-index: 100;
         color: #97469e;
     }
@@ -601,7 +604,9 @@ body
     .coming h1
     {
         opacity: 0.7;
+        font-size: 20em !important;
         color: #97469e !important;
+        font-weight: 500 !important;
     }
 
     .coming h2
@@ -643,14 +648,13 @@ body
 
     .bg img
     {
-        margin-left: 10.5%;
+        margin-left: 12.5%;
         max-width: 75%;
         margin-top: 5px;
     }    
     
     #coming
     {
-        font-size: 4em;
         font-weight: 700 !important;
         background: -webkit-linear-gradient(#6C63FF 0%, #FF6C56 60%, #FFDB2E 100%);
         -webkit-background-clip: text;
