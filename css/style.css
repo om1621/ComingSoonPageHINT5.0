@@ -614,20 +614,20 @@ body
     }
 
     .home{
-        height: 800px;
+        height: 840px;
     }
 
     .gr
     {
         text-align: center;
         margin-top: -100px;
-        padding: 750px 0 0 0;
+        padding: 730px 0 0 0;
     }
 
     .gr h2
     { 
     margin-top:0;
-    font-size: 5em;
+    font-size: 4em;
     font-weight: 700 !important;
     background: -webkit-linear-gradient(#6C63FF 0%, #FF6C56 60%, #FFDB2E 100%);
     -webkit-background-clip: text;
@@ -637,9 +637,9 @@ body
 
     .bg img
     {
-        margin-left: 5%;
-        max-width: 90%;
-        margin-top: 40px;
+        margin-left: 12.5%;
+        max-width: 75%;
+        margin-top: 25px;
     }         
 }
 
