@@ -166,8 +166,10 @@ body:hover .coming
     transform: translate3d(0, 150%, 0);
 }
 
-body:hover .gr
+@media screen and (max-width: 440px)
 {
+    body:hover .gr
+    {
     opacity: 1;
     -webkit-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
@@ -183,7 +185,10 @@ body:hover .gr
          transform: translate3d(0, 0%, 0);
          -webkit-transition-delay: 1s;
          transition-delay: 1s;
+    }
 }
+
+
 
 @media screen and (min-width: 768px)
 {
