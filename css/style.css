@@ -797,22 +797,21 @@ body:hover .coming
     #sponsor
     {
         overflow: hidden;
+
     }
 
     #sponsor .row{
         max-width: 960px;
-        overflow: hidden;
-        margin:0 7.5%; 
+        overflow: hidden; 
+        margin: 0 auto;
     }
 
     .two .sp-image
     {
         width: 40%;
     }
-
-
-
 }
+
 
 .sp-div
 {
@@ -829,4 +828,13 @@ body:hover .coming
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 440px)
+{
+    .head
+    {
+        width: 100%;
+        text-align: center;
+    }
 }
