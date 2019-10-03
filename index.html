@@ -51,7 +51,7 @@
                                 <div class="lappy">
                                 </div>
                             </div>
-                            <img src="assets/logos/logo_HINT5.svg" alt="hint5" id="logo">
+                            <img src="assets/logos/logo_HINT5.svg" alt="hint5" id="logo" class="logo">
                     </div>             
                     <div class="coming">
                               <div><h1>5</h1></div>
@@ -215,6 +215,14 @@
         AOS.init();
     </script>
     <script>
+
+                $(document).ready(function(){
+
+                  $(".coming").addClass("up");
+                  $("#logo").addClass("logoup");
+                  $(".gr").addClass("grup");
+
+                });
                 
 
                 $(".navbar-toggler").click(function(){
