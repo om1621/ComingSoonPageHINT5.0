@@ -20,12 +20,11 @@ body
     margin-left: 100px;
 }
 
-#mainNav
+.c21
 {
     padding-top: 20px;
     opacity: 1;
     background: transparent !important;
-
 }
 
 .nav-item
@@ -556,7 +555,7 @@ body:hover .coming
 {
     display: inline;
     margin-left: 20px;
-    border: 2px solid white;
+    border: 0.6px solid white;
     border-radius: 50%;
     padding: 26px 12px 12px 12px;
 }
@@ -565,24 +564,9 @@ body:hover .coming
     margin-top: 20px;
 }
 
-#footer ul li:nth-child(1)
+#footer ul a:nth-child(1)
 {
-    color: #42a5f5;
-}
-
-#footer ul li:nth-child(2)
-{
-    color: #e20f00;
-}
-
-#footer ul li:nth-child(4)
-{
-    color: #17bfff
-}
-
-#footer ul li:nth-child(3)
-{
-    color: white;
+    color: #e2cece;
 }
 
 #footer ul li:nth-child(1):hover
@@ -685,7 +669,7 @@ body:hover .coming
 
     #mainNav
     {
-        
+        overflow: hidden;
     }
 
     .lappy{
@@ -830,11 +814,62 @@ body:hover .coming
     transform: translate(-50%, -50%);
 }
 
-@media screen and (max-width: 440px)
+@media screen and (max-width: 992px)
 {
     .head
     {
         width: 100%;
         text-align: center;
     }
+
+    .c1
+    {
+        margin-top: -140px;
+    }
+
+    .c22
+    {
+        background-color: #f8f9fa !important;
+        height: 400px;
+    }
+
+    .c3
+    {
+        font-size: 1.5em;
+    }
+
+    .c4
+    {
+        padding: 0 16px;
+    }
+}
+
+.download
+{
+    background-color: black;
+    padding: 6px 19px;
+    border: 3px solid;
+    border-radius: 24px;
+    margin-top: 4px;
+    text-align: center;
+}
+
+.download a{
+    color: white;
+    font-size: 1.6em;
+}
+
+.download a:hover{
+    text-decoration: none;
+}
+
+.coc
+{
+    color: white;
+}
+
+.coc:hover
+{
+    text-decoration: none;
+    color: white;
 }

@@ -10,11 +10,16 @@
     <script src="https://kit.fontawesome.com/bf2cd612e0.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <script
+  src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
+
 
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top c21" id="mainNav">
         <div class="container-fluid" style="padding-right:0; padding-left:0%;">
           <a class="navbar-brand js-scroll-trigger navbar-title" href="#"><img src="./assets/logos/logo_HINT5.svg" class="navbar-img"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
@@ -170,6 +175,7 @@
             <div id="brochure">
               <h2 data-aos="fade-up" data-aos-duration="20000" data-aos-easing="linear">Sponsor Us!</h2>
               <h3 data-aos="fade-up" data-aos-duration="20000" data-aos-easing="linear">Download Sponsorship Brochure</h3>
+              <button class="download"  data-aos="fade-up" data-aos-duration="20000" data-aos-easing="linear"><a href="./assets/HINT5_brochure_i2.pdf" download>Download</a></button>
             </div>
             <div id="contact">
               <div class="row" id="footer">
@@ -179,23 +185,23 @@
                 <div class="col-md-4 col-sm-12" data-aos="fade-up" data-aos-duration="20000" data-aos-easing="linear">
                   <p>Vishal Pani +91-9123456789 <br>Vijeta +91-9123456789
                   </p>
-                  <p>Code Of Conduct | 2019 Hack In The North <br> All trademarks and logos <br> are property of thier respective owners</p>
+                  <p> <a class="coc" href="https://hackcodeofconduct.org/769-hack_in_the_north_4_0">Code Of Conduct | 2019 Hack In The North</a> <br> All trademarks and logos <br> are property of thier respective owners</p>
                 </div>
                 <div class="col-md-4 col-sm-12" data-aos="fade-up" data-aos-duration="20000" data-aos-easing="linear">
                   
                   <ul class="icons" id="medium">
-                    <li><i class="fab fa-facebook-square fa-3x"></i></li>
-                    <li><i class="fab fa-instagram fa-3x"></i></li>
+                    <li><a href="https://www.facebook.com/HackInTheNorth/" ><i class="fab fa-facebook-square fa-3x"></i></a></li>
+                    <li><a href="https://www.instagram.com/hackinthenorth/" ><i class="fab fa-instagram fa-3x"></i></a></li>
                     <br><br><br>
-                    <li><i class="fab fa-github fa-3x"></i></li>
-                    <li><i class="fab fa-twitter-square fa-3x"></i></li>
+                    <li><a href="https://github.com/HackInTheNorth"><i class="fab fa-github fa-3x"></i></a></li>
+                    <li><a href="https://twitter.com/hintiiita"><i class="fab fa-twitter-square fa-3x"></i></a></li>
                   </ul>
 
                   <ul class="icons" id="sl">
-                    <li><i class="fab fa-facebook-square fa-3x"></i></li>
-                    <li><i class="fab fa-instagram fa-3x"></i></li>
-                    <li><i class="fab fa-github fa-3x"></i></li>
-                    <li><i class="fab fa-twitter-square fa-3x"></i></li>
+                    <li><a href="https://www.facebook.com/HackInTheNorth/"><i class="fab fa-facebook-square fa-3x"></i></a></li>
+                    <li><a href="https://www.instagram.com/hackinthenorth/"><i class="fab fa-instagram fa-3x"></i></a></li>
+                    <li><a href="https://github.com/HackInTheNorth"><i class="fab fa-github fa-3x"></i></a></li>
+                    <li><a href="https://twitter.com/hintiiita" ><i class="fab fa-twitter-square fa-3x"></i></a></li>
                   </ul>
 
                 </div>
@@ -207,6 +213,17 @@
             <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
+    </script>
+    <script>
+                
+
+                $(".navbar-toggler").click(function(){
+                $(".navbar-collapse").toggleClass("show");
+                $(".navbar-toggler").toggleClass("c1");
+                $("#mainNav").toggleClass("c22");
+                $(".nav-item a").toggleClass("c3");
+                $(".#navbarResposive").toggleClass("c4");
+                  });
     </script>
 </body>
 </html>
