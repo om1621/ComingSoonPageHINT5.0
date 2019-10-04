@@ -27,13 +27,25 @@ body
     background: transparent !important;
 }
 
+a.top-up
+{
+    position: fixed;
+    bottom: 4%;
+    right: 4%;
+}
+
+a.top-up img
+{
+    height: 60px;
+}
+
 @media screen and (min-width: 992px)
 {
     .c21
     {
         padding-top:0px;
         opacity: 1;
-        background: white !important;
+        background: transparent !important;
         padding-bottom: 0px;
     }
     
@@ -42,19 +54,27 @@ body
 .nav-item
 {
     margin: 0 18px;
-    font-size: 1.6em;
-    background: -webkit-linear-gradient(#6C63FF 0%, #FF6C56 60%, #FFDB2E 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 600;
+    font-size: 1.7em;
+    font-weight: 500;
+   
     
+}
+
+@media screen and (max-width: 992px)
+{
+    .nav-item
+    {
+        background: -webkit-linear-gradient(#6C63FF 0%, #FF6C56 60%, #FFDB2E 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }
 
 .nav-item a
 {
     color: white !important;
     font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.8px;
 
 }
 
@@ -95,20 +115,15 @@ body
    padding-top: 14%;
    padding-left: 12%;
    width: 40%;
-   opacity: 0;
-   -webkit-transform: translate(0, 150%);
-   -ms-transform: translate(0, 150%);
-   transform: translate(0, 150%);
-   -webkit-transform: translate3d(0, 150%, 0);
-   transform: translate3d(0, 150%, 0);
+   opacity: 1;
 }
 
 #logo
 {
-    
+    opacity: 1;
 }
 
-.logo
+/*.logo
 {
     opacity: 0;
     -webkit-transform: translate(0, 150%);
@@ -116,7 +131,7 @@ body
     transform: translate(0, 150%);
     -webkit-transform: translate3d(0, 150%, 0);
     transform: translate3d(0, 150%, 0);
-}
+}*/
 
 .logoup
 {
@@ -171,19 +186,12 @@ body
     font-size: 5em;
     margin-left: -20px;
     font-weight: 700 !important;
-    background: -webkit-linear-gradient(#6C63FF 0%, #FF6C56 60%, #FFDB2E 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: black;
     
 }
 
 .gr{
-    opacity: 0;
-    -webkit-transform: translate(0, 150%);
-    -ms-transform: translate(0, 150%);
-    transform: translate(0, 150%);
-    -webkit-transform: translate3d(0, 150%, 0);
-    transform: translate3d(0, 150%, 0);
+    opacity: 1;
 }
 
 @media screen and (max-width: 440px)
@@ -423,7 +431,8 @@ body
     #diversity
     {
         margin: 0 auto;
-        padding: 8% 15%;
+        padding: 8% 15% 0% 15%;
+        margin-top: 40px;
     }
 
     #diversity .heading
@@ -720,8 +729,7 @@ body
     }
 
     .home{
-        height: 720px;
-        
+        height: 100vh; 
     }
 
     .bg
@@ -852,7 +860,7 @@ body
 
     .c3
     {
-        font-size: 1.5em;
+        font-size: 1.20em;
     }
 
     .c4
