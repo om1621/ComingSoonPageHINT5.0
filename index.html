@@ -31,16 +31,16 @@
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto navbar-list">
               <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#diversity">Diversity</a>
+                <a class="nav-link js-scroll-trigger link" href="#diversity">Diversity</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#sponsor">Past Sponsors</a>
+                <a class="nav-link js-scroll-trigger link" href="#sponsor">Past Sponsors</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#brochure">Brochure</a>
+                <a class="nav-link js-scroll-trigger link" href="#brochure">Brochure</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                <a class="nav-link js-scroll-trigger link" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -231,6 +231,28 @@
                   $(".nav-item a").toggleClass("c3");
                   $(".#navbarResposive").toggleClass("c4");
                 });
+    </script>
+
+    <script>
+
+          window.onscroll = function() {scrollFunction()};
+
+          function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                  document.getElementById("mainNav").classList.remove("c25");
+                  document.getElementById("mainNav").style.backgroundColor = "#FFFFFF !important";
+                  document.getElementById("mainNav").classList.add("shadowFix");
+                  document.getElementById("mainNav").classList.add("c23");
+                  $(".nav-item a").addClass("c24");
+                  
+                 } else {
+                  document.getElementById("mainNav").classList.add("c25");
+                  document.getElementById("mainNav").classList.remove("shadowFix");
+                  document.getElementById("mainNav").classList.remove("c23");
+                  $(".nav-item a").removeClass("c24");
+                }
+}
+
     </script>
 </body>
 </html>
