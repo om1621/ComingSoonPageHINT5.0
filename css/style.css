@@ -444,7 +444,7 @@ a.top-up img
 #diversity
 {
     background-color: #f3f3f3;
-    padding: 60px 10% 0 10%;
+    padding: 60px 5% 40px 5%;
    
 }
 
@@ -460,24 +460,40 @@ a.top-up img
     letter-spacing: 1px;
 }
 
-.ladies
-{
-    height: 70%;
-}
-
 #diversity .row p
 {
     font-size: 1.8em;
 }
 
-#para
+@media screen and (min-width: 768px)
 {
-    padding: 60px 0 0 60px;
+    #para
+    {
+        height: 70%;
+    }
+
+    #para p
+    {
+        padding: 80px 30px 0 40px;
+    }
+
+    #lady
+    {
+        margin-top: 40px;
+    }
+
+    #diversity
+    {
+        padding: 5% 10%;
+    }
+
 }
+
+
 
 .ladies:hover 
 {
-    height: 72%;
+    height: 100%;
     transition: 0.4s all ease-in;
 }
 
@@ -549,7 +565,7 @@ a.top-up img
 {
     background-color: #f3f3f3;
     text-align: center;
-    padding: 120px 0;
+    padding: 76px 0;
 }
 
 #brochure h2
@@ -599,7 +615,7 @@ a.top-up img
 
     #diversity .row p
     {
-        font-size: 1.8em;
+        font-size: 2em;
         text-align: right;
     }
 
@@ -644,7 +660,7 @@ a.top-up img
 
     #lady
     {
-        padding: 10% 0 0 15%;
+        padding: 10% 15%;
     }
 
     #para
@@ -850,7 +866,7 @@ a.top-up img
 
     #footer
     {
-        padding: 40px 20px;
+        padding: 40px 20px 0px 20px;
     }
 
     #r3 .col-md-4 img
@@ -990,6 +1006,14 @@ a.top-up img
     padding: 5%;
 }
 
+@media screen and (max-width: 440px)
+{
+    #sponsor
+    {
+        padding: 15% 10% 20% 10%;
+    }
+}
+
 @media screen and (min-width: 992px)
 {
     #sponsor
@@ -1068,6 +1092,44 @@ a.top-up img
     text-align: center;
 }
 
+.less
+{
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 440px)
+{
+    #brochure
+    {
+        padding: 70px 0;
+    }
+
+    #brochure h2
+    {
+        font-size: 3.5em;
+    }
+
+    #brochure h3
+    {
+        font-size: 1.75;
+    }
+
+    .download
+    {
+        padding: 4px 16px;
+    }
+
+    #diversity
+    {
+        padding: 12% 16% 0;
+    }
+
+    .less
+    {
+        margin-top: 70px;
+    }
+}
+
 .download a{
     color: white;
     font-size: 1.6em;
@@ -1087,3 +1149,20 @@ a.top-up img
     text-decoration: none;
     color: white;
 }
+
+.large #lady
+{
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.large #lady img
+{
+    width: 70%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
