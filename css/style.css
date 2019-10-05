@@ -259,7 +259,13 @@ a.top-up img
 {
     color:black !important;
     font-weight: 500;
-    opacity: 0.6;
+}
+
+@media screen and (min-width: 992px)
+{
+    .c24{
+        opacity: 0.6;
+    }
 }
 
 .bg
@@ -1037,7 +1043,7 @@ a.top-up img
 
     .c22
     {
-        background-color: #f8f9fa !important;
+        background-color:rgba(248, 249, 250, 0.71) !important;
         height: 400px;
     }
 
