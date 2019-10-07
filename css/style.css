@@ -311,7 +311,6 @@ a.top-up img
 .home
 {
     height: 100vh;
-    width: 100vw;
 }
 
 #diversity
@@ -1019,13 +1018,13 @@ a.top-up img
 
 .coc
 {
-    color: white;
+    color: #575757;
 }
 
 .coc:hover
 {
     text-decoration: none;
-    color: white;
+    color: #575757;
 }
 
 .large #lady
@@ -1044,3 +1043,92 @@ a.top-up img
     transform: translate(-50%, -50%);
 }
 
+
+.footer{
+    padding-top: 6%;
+    padding-bottom: 3%;
+}
+
+.footer-row{
+    width: 35%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.footer-title{
+    font-weight: 600;
+    background: linear-gradient(to right, #6C63FF 0%, #FF6C56 60%, #FFDB2E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.0em;
+    font-family: 'CeraPro-medium';
+}
+
+.footer-info{
+    font-family: 'CeraPro-medium';
+    font-size: 1.8em;
+    color: #575757;
+    line-height: 140%;
+}
+
+.footer-social-links a{
+    font-family: 'CeraPro-medium';
+    font-size: 1.8em;
+    color: #818181 !important;
+}
+
+.footer-logo-img{
+    width: 50%;
+}
+
+
+
+@media screen and (max-width: 992px){
+    .footer-row{
+        width: 50%;
+    }
+
+    .footer-info, .footer-social-links{
+        font-size: 16px;
+    }
+
+    .footer-logo-img{
+        width: 60%;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .footer{
+        padding-top: 15%;
+        padding-bottom: 10%;
+    }
+
+    .footer-row{
+        width: 80%;
+        margin-bottom: 5%;
+    }
+
+    .footer-title{
+        font-size: 18px;
+    }
+
+    .footer-info, .footer-social-links{
+        font-size: 14px;
+    }
+
+    .footer-logo-img{
+        width: 50%;
+    }
+}
+
+#brochure h2 , .head h2, #diversity .heading h2, .c24
+{
+    color: #575757 !important;
+}
+
+#diversity .row p, #brochure h3
+{
+    color: #818181 !important;
+}
