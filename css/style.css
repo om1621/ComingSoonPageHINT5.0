@@ -1132,3 +1132,63 @@ a.top-up img
 {
     color: #818181 !important;
 }
+
+@media screen and (orientation:landscape)
+and (min-width: 450px) 
+and (max-width: 640px)
+{
+    .coming h1 {
+        font-size: 20em !important;
+        opacity: 0.1;
+        position: absolute;
+        z-index: -1;
+        font-weight: 700 !important;
+        margin-left: -29px;
+    }
+
+    .coming h2 {
+        font-size: 3.1em;
+        margin-top: 90px;
+        margin-left: -29px;
+    }
+
+    .lappy {
+        background-image: url(../assets/lappy3.svg);
+        background-size: cover;
+        background-position: center;
+        height: 81%;
+        width: 72%;
+        margin-left: -56px;
+        margin-top: 56px;
+    }
+
+    .bg {
+        height: 400px;
+        width: 61%;
+        background-image: url(../assets/background.svg);
+        background-position: center;
+        background-size: cover;
+        float: right;
+    }
+
+    .crane {
+        background-image: url(../assets/cranes.svg);
+        background-size: cover;
+        background-position: center;
+        height: 284px;
+        width: 72.5%;
+        float: right;
+        margin-top: 76px;
+    }
+
+    #mainNav img {
+        width: 150px;
+        height: 63px;
+        margin-left: 20px;
+    } 
+
+    .footer {
+        padding-top: 10%;
+        padding-bottom: 5%;
+    }
+}
