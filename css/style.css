@@ -1136,15 +1136,7 @@ a.top-up img
    
 }
 
-@media screen and (max-width: 440px)
-{
-    .footer-logo-img
-    {
-        width: 75%;
-    }
 
-    
-}
 
 @media screen and (max-width: 992px)
 {
@@ -1159,6 +1151,19 @@ a.top-up img
     .footer-row ul
     {
         margin-top: -2em;
+    }
+}
+
+@media screen and (max-width: 440px)
+{
+    .footer-logo-img
+    {
+        width: 75%;
+    }
+
+    .fa-2x
+    {
+        font-size: 1.1em;
     }
 }
 
