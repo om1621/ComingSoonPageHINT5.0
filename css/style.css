@@ -1165,6 +1165,12 @@ a.top-up img
     {
         font-size: 1.1em;
     }
+
+    .container-fluid
+    {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
 
 #brochure h2 , .head h2, #diversity .heading h2, .c24
