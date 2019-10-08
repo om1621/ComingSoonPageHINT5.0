@@ -37,20 +37,28 @@ a.top-up
     bottom: 4%;
     right: 4%;
     z-index: 10;
+    width: 45px;
+    height: 45px;
+    background-image: linear-gradient(to right, #97469e, #ff24a3);
+    padding: 11px 0 0 12px;
+    border-radius: 2px;
 }
 
-a.top-up img
+a.top-up .fa-3x
 {
-    height: 60px;
+    color: white;
+    font-size: 2.4em;
 }
+
+
 
 @media screen and (max-width: 440px)
 {
     a.top-up
     {
         position: fixed;
-        bottom: 1%;
-        right: 2%;
+        bottom: 2%;
+        right: 3%;
         z-index: 10;
     }
     
@@ -1122,11 +1130,11 @@ a.top-up img
     }
 
     .footer-title{
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .footer-info, .footer-social-links{
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .footer-logo-img{
@@ -1250,7 +1258,6 @@ and (min-width: 450px) and (max-width: 850px)
      {
         padding-top: 0px;
         opacity: 1;
-        background: transparent !important;
     }
 
     .coming {
@@ -1258,5 +1265,10 @@ and (min-width: 450px) and (max-width: 850px)
         padding-left: 14%;
         width: 40%;
         opacity: 1;
+    }
+
+    .c30
+    {
+        margin-top: -140px;
     }
 }
