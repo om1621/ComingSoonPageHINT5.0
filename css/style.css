@@ -1184,11 +1184,15 @@ a.top-up img
 }
 
 @media screen and (orientation:landscape)
-and (min-width: 450px) 
-and (max-width: 768px)
+and (min-width: 450px) and (max-width: 850px)
 {
+
+    .home {
+        height: 70vh;
+    }
+
     .coming h1 {
-        font-size: 20em !important;
+        font-size: 14em !important;
         opacity: 0.1;
         position: absolute;
         z-index: -1;
@@ -1197,8 +1201,8 @@ and (max-width: 768px)
     }
 
     .coming h2 {
-        font-size: 3.1em;
-        margin-top: 90px;
+        font-size: 2.2em;
+        margin-top: 64px;
         margin-left: -29px;
     }
 
@@ -1207,32 +1211,32 @@ and (max-width: 768px)
         background-size: cover;
         background-position: center;
         height: 81%;
-        width: 72%;
-        margin-left: -56px;
+        width: 66%;
+        margin-left: -42px;
         margin-top: 56px;
     }
 
     .bg {
-        height: 400px;
-        width: 61%;
-        background-image: url(../assets/background.svg);
-        background-position: center;
-        background-size: cover;
-        float: right;
+        height: inherit;
+    width: 61%;
+    background-image: url(../assets/background.svg);
+    background-position: center;
+    background-size: cover;
+    float: right;
     }
 
     .crane {
         background-image: url(../assets/cranes.svg);
-        background-size: cover;
-        background-position: center;
-        height: 284px;
-        width: 72.5%;
-        float: right;
-        margin-top: 76px;
+    background-size: cover;
+    background-position: center;
+    height: 284px;
+    width: 72.5%;
+    float: right;
+    margin-top: 0px;
     }
 
     #mainNav img {
-        width: 150px;
+        width: 110px;
         height: 63px;
         margin-left: 20px;
     } 
@@ -1240,5 +1244,19 @@ and (max-width: 768px)
     .footer {
         padding-top: 10%;
         padding-bottom: 5%;
+    }
+
+    .c21
+     {
+        padding-top: 0px;
+        opacity: 1;
+        background: transparent !important;
+    }
+
+    .coming {
+        padding-top: 11%;
+        padding-left: 14%;
+        width: 40%;
+        opacity: 1;
     }
 }
